@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+.sheet-primetime-adventures {
+  background: #fff url("https://github.com/tysonmatanich/roll20-primetime-adventures/blob/custom/assets/images/repeating.png?raw=true");
+  color: #111;
+  padding: 20px;
+  font-family: "Merriweather", serif;
+  border-radius: 8px;
+  min-width: 370px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: calc(100vh - 142px);
+  box-sizing: border-box;
+}
+.sheet-primetime-adventures .info {
+  margin: 10px auto;
+  max-width: 520px;
+}
+.sheet-primetime-adventures .info h1 {
+  color: #111;
+  margin-bottom: 10px;
+}
+.sheet-primetime-adventures .info .inputs {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -10px;
+}
+.sheet-primetime-adventures .info .inputs .input {
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.sheet-primetime-adventures .info .inputs .input.input-full {
+  padding: 5px 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.sheet-primetime-adventures .info .inputs .input.input-full input,
+.sheet-primetime-adventures .info .inputs .input.input-full textarea {
+  width: 100%;
+}
+.sheet-primetime-adventures .info .inputs .input label {
+  font-family: "Merriweather", serif;
+  font-size: 13px;
+  line-height: 23px;
+  color: #111;
+  opacity: 0.7;
+  text-transform: lowercase;
+  font-weight: normal;
+  margin: 0;
+}
+.sheet-primetime-adventures .info .inputs .input input,
+.sheet-primetime-adventures .info .inputs .input textarea {
+  border: 1px solid #a7a7a7;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #111;
+  font-size: 14px;
+  line-height: normal;
+  padding: 4px 8px;
+  width: 250px;
+  box-sizing: border-box;
+}
+.sheet-primetime-adventures .info .inputs .input textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 2em;
+  height: 5.5em;
+  box-sizing: border-box;
+  cursor: auto;
+  scrollbar-color: #90a4ae #cfd8dc;
+  scrollbar-width: thin;
+}
+.sheet-primetime-adventures .info .inputs .input textarea::-webkit-scrollbar {
+  width: 9px;
+  cursor: pointer;
+}
+.sheet-primetime-adventures .info .inputs .input textarea::-webkit-scrollbar-track {
+  background: #cfd8dc;
+  border-radius: 1px;
+}
+.sheet-primetime-adventures .info .inputs .input textarea::-webkit-scrollbar-thumb {
+  background-color: #90a4ae;
+  border-radius: 1px;
+  border: 1px solid #cfd8dc;
+}

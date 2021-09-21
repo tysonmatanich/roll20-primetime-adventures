@@ -1,0 +1,25 @@
+{
+  "name": "primetime-adventures",
+  "version": "1.0.0",
+  "description": "Primetime Adventures Role20 template",
+  "author": "Tyson Matanich (https://matanich.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tysonmatanich/roll20-primetime-adventures/issues"
+  },
+  "homepage": "https://github.com/tysonmatanich/roll20-primetime-adventures",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:html && npm run build:styles",
+    "build:html": "node html/merge.js primetime-adventures.html",
+    "build:styles": "sass --no-source-map styles/merge.scss:primetime-adventures.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tysonmatanich/roll20-primetime-adventures.git"
+  },
+  "devDependencies": {
+    "better-concat": "^1.0.1",
+    "sass": "^1.35.2"
+  }
+}

@@ -1,0 +1,100 @@
+@use "sass:color";
+@import "./_settings.scss";
+
+.sheet-primetime-adventures {
+  background: $color-background
+    url("https://github.com/tysonmatanich/roll20-primetime-adventures/blob/custom/assets/images/repeating.png?raw=true");
+  color: $color-foreground;
+  padding: 20px;
+  font-family: $font-primary;
+  border-radius: 8px;
+  min-width: 370px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: calc(100vh - 142px);
+  box-sizing: border-box;
+
+  .info {
+    margin: 10px auto;
+    max-width: 520px;
+
+    h1 {
+      color: $color-foreground;
+      margin-bottom: 10px;
+    }
+
+    .inputs {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 0 -10px;
+
+      .input {
+        padding: 5px 10px;
+        box-sizing: border-box;
+
+        &.input-full {
+          padding: 5px 10px;
+          box-sizing: border-box;
+          width: 100%;
+
+          input,
+          textarea {
+            width: 100%;
+          }
+        }
+
+        label {
+          font-family: $font-primary;
+          font-size: 13px;
+          line-height: 23px;
+          color: $color-foreground;
+          opacity: 0.7;
+          text-transform: lowercase;
+          font-weight: normal;
+          margin: 0;
+        }
+
+        input,
+        textarea {
+          border: 1px solid $color-textbox;
+          border-radius: 2px;
+          background-color: $color-background;
+          color: $color-foreground;
+          font-size: 14px;
+          line-height: normal;
+          padding: 4px 8px;
+          width: 250px;
+          box-sizing: border-box;
+        }
+
+        textarea {
+          min-width: 100%;
+          max-width: 100%;
+          min-height: 2em;
+          height: 5.5em;
+          box-sizing: border-box;
+          cursor: auto;
+
+          scrollbar-color: $color-scrollbar-thumb $color-scrollbar-track;
+          scrollbar-width: thin;
+
+          &::-webkit-scrollbar {
+            width: 9px;
+            cursor: pointer;
+          }
+
+          &::-webkit-scrollbar-track {
+            background: $color-scrollbar-track;
+            border-radius: 1px;
+          }
+
+          &::-webkit-scrollbar-thumb {
+            background-color: $color-scrollbar-thumb;
+            border-radius: 1px;
+            border: 1px solid $color-scrollbar-track;
+          }
+        }
+      }
+    }
+  }
+}

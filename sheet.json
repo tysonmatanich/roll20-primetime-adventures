@@ -1,0 +1,76 @@
+{
+  "html": "primetime-adventures.html",
+  "css": "primetime-adventures.css",
+  "authors": "Tyson Matanich (@tysonmatanich)",
+  "roll20userid": "8653222",
+  "patreon": "https://www.patreon.com/<name>",
+  "tipeee": "https://www.tipeee.com/<name>",
+  "preview": "assets/screenshots/character-sheet/primetime-adventures.png",
+  "instructions": "",
+  "legacy": false,
+  "useroptions": [
+    {
+      "attribute": "game_name",
+      "displayname": "Game Name",
+      "type": "text",
+      "value": "Primetime Adventures",
+      "description": "Default game name (Primetime Adventures)"
+    },
+    {
+      "attribute": "primary_type",
+      "displayname": "Primary Type",
+      "type": "text",
+      "value": "Bear",
+      "description": "Default primary character stat type (Bear)"
+    },
+    {
+      "attribute": "secondary_type",
+      "displayname": "Secondary Type",
+      "type": "text",
+      "value": "Criminal",
+      "description": "Default secondary character stat type (Criminal)"
+    },
+    {
+      "attribute": "label_1",
+      "displayname": "Label 1",
+      "type": "text",
+      "value": "Type / Skill",
+      "description": "Default field 1 (Type / Skill)"
+    },
+    {
+      "attribute": "label_2",
+      "displayname": "Label 2",
+      "type": "text",
+      "value": "Descriptor",
+      "description": "Default field 2 (Descriptor)"
+    },
+    {
+      "attribute": "label_3",
+      "displayname": "Label 3",
+      "type": "text",
+      "value": "Role",
+      "description": "Default field 3 (Role)"
+    },
+    {
+      "attribute": "label_4",
+      "displayname": "Label 4",
+      "type": "text",
+      "value": "Attire",
+      "description": "Default field 4 (Attire)"
+    },
+    {
+      "attribute": "label_5",
+      "displayname": "Label 5",
+      "type": "text",
+      "value": "Flaw",
+      "description": "Default field 5 (Flaw)"
+    },
+    {
+      "attribute": "label_notes",
+      "displayname": "Label Notes",
+      "type": "text",
+      "value": "Notes",
+      "description": "Default field notes (Notes)"
+    }
+  ]
+}
